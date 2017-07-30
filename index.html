@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/bulid/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<!--总容器开始-->
+<div class="container">
+    <h1>我的ToDo</h1>
+    <form class="add-task">
+        <input type="text"name="content" placeholder="请输入需要提示的事情" autofocus autocomplete="off">
+        <button type="submit">submit</button>
+    </form>
+    <!--清单列表-->
+    <div class="task-list">
+        <!--任务开始-->
+        <!--<div class="task-item">-->
+            <!--<span><input type="checkbox"></span>-->
+            <!--<span class="task-contetn">item content 1</span>-->
+            <!--<span>delete</span>-->
+            <!--<span>detail</span>-->
+        <!--</div>-->
+    </div>
+    <!--遮罩层-->
+    <div class="task-detail-mask"></div>
+    <!--任务详情-->
+    <div class="task-detail">
+        <!--<div>-->
+            <!--&lt;!&ndash;任务标题&ndash;&gt;-->
+            <!--<div class="content">-->
+                <!--下午记得买菜-->
+            <!--</div>-->
+            <!--&lt;!&ndash;任务描述&ndash;&gt;-->
+            <!--<div>-->
+                <!--<div class="desc">-->
+                    <!--<textarea name="" id=""></textarea>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;任务定时提醒&ndash;&gt;-->
+            <!--<div class="remindd">-->
+                <!--<input type="date">-->
+                <!--&lt;!&ndash;<button type="submit">submit</button>&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+<!--总容器结束-->
+<video class="alerter" src="alert.mp3"></video>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-datetimepicker/bulid/jquery.datetimepicker.full.min.js"></script>
+<script src="node_modules/store/store.min.js"></script>
+<script src="js/base.js"></script>
+<!--<script src="js/base_todo.js.js"></script>-->
+</body>
+</html>
